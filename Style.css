@@ -1,0 +1,923 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+height: 100vh;
+width: 100%;
+padding-top: 40px;
+background-color: rgba(225,231, 243, 100);
+}
+.navbar{
+    height: 90px;
+    width: 90%;
+    margin: 0 5%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 30px;
+    font-size: 18px;
+    align-items: center;
+}
+li{
+    display: inline;
+    margin: 0 30px;
+}
+a{text-decoration: none;
+color:#000000;
+font-weight: 500;
+text-transform: capitalize;
+}
+.Logo{
+font-weight: bold;
+font-size: 30px;
+color: #000000;
+
+}
+.Logo span{
+    color: red;
+}
+.contact-Btn{
+    color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+background-color: #000000;
+}
+.banner{
+    height: 83%;
+    width: 90%;
+    margin: 0 5%;
+    position: relative;
+    /* background-color: #ffffff; */
+}
+.intro{
+    margin-top: 50px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #ffffff;
+   
+    font-size: 40px; */
+    
+    
+}
+.intro p{
+    width: 20%;
+    font-weight:600;
+font-size: 18px;
+line-height: 30px;
+}
+.intro .icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 1px #000000;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 30px;
+   
+   
+}
+.workprocess{
+    display: flex;
+    align-items: center;
+    /* font-size: 30px;
+    text-align: center; */
+}
+.header .black {
+    /* margin-top: 100px;
+    background-color: green; */
+    text-align: center;
+    color: black;
+
+  }
+  
+  .header h1  {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 150px;
+    color:black;
+    text-align: center;
+  }
+  .header h1 span{
+    color: red;
+  }
+  
+  .footnote{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 150px;
+  }
+  
+
+  .footnote .call-to-action{
+    width: 25%;
+  }
+.footnote a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+}
+.footnote .call-to-action{
+    font-size: 30px;
+    width: 35%;
+}
+.banner img{
+    position: absolute;
+    height: 450px;
+    bottom: 0 !important;
+    right: 38%;
+    /* padding-bottom: 3%; */
+}
+.section2{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+.scroll-bar{
+    height: 23%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scroll-bar h1{
+    color: #ffffff;
+    font-size: 70px;
+}
+.content{
+    height: 77%;
+    background-color: rgba(253,236, 215);
+    display: flex;
+}
+.content-image{
+    width: 35%;
+    height: 100%;
+    background-image: url("https://petrix.vercel.app/images/about_img.png") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    /* background-color: green; */
+}
+.content-text{
+    width: 65%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.text{
+height: 68%;
+width: 75%;
+/* background-color:#ffffff; */
+font-weight: 500;
+font-size: 38px;
+line-height: 64px;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+.stats{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+.statistic{
+    display: flex;
+}
+.stat{
+    display: flex;
+    margin: 0 20px;
+    font-size: 48px;
+}
+.stat p{
+    margin: 0 10px;
+    font-size: 24px;
+    font-weight: 900;
+}
+button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.section3{
+    height: 100vh;
+    width: 100%;
+    padding: 30px 0;
+    background-color:#000000;
+}
+.section3 h2{
+    font-size: 74px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    /* padding-top: 10px; */
+    /* padding:190px; */
+
+}
+
+.card-container{
+    display: flex;
+    width: 90%;
+ justify-content:space-between;
+ gap: 25px;
+   align-items: center;
+
+}
+.skill{
+    border-radius: 10%;
+    border: solid 2px white;
+    width: 250px;
+    height: 400px;
+   margin-top: 50px;
+    margin-left: 10%;
+   
+    background-color:#ffffff0d; 
+
+   
+}
+
+ .skill h4{
+ color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+ }
+
+.card h3{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+   
+    padding-top: 20px;
+
+}
+   .scroll-award{
+    height: 5%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 76px;
+    margin-top: 170px;
+}
+.card .skill .brand{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 30%;
+    justify-content: center;
+    align-items: center;
+}
+     
+.section4{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+.section4 .scroll-bar{
+   background-color:#ea552b ; 
+}
+.awards{
+    height: 77%;
+    background-color: #010101;
+    color: #ffffff;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4 p{
+    width: 90%;
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content:space-between;
+    border-top: solid 1px grey;
+    font-weight: 700;
+    padding: 20px 0;
+}
+/* p:nth-of-type(1){
+    background-color: #ea552b;
+  }
+  p:nth-of-type(2){
+    background-color: green;
+  }
+  p:nth-of-type(3){
+    background-color: #ea552b; */
+  /* } */
+  p:nth-of-type(4){
+         border-bottom:solid 1px grey
+  }
+
+  .section5{
+    height:100vh;
+    width:100%;
+    display: flex; 
+     align-items: center;
+    justify-content: center; 
+     gap: 20px;
+ background-color:#e2eaf6;
+}
+
+.tag {
+    height: 80%;
+    width: 45%;
+    display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.tag h3{
+    font-size: 30px;
+    padding: 30px 0;
+}
+ .tag .timeline{
+    height: 80%;
+    border: solid 2px white;
+    border-radius: 20px;
+ }
+.timeline .period{
+    height: 33%;
+    border-bottom: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timeline p{
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #ea552b ;
+}
+ 
+.timeline p:nth-of-type(2) {
+    width: 50%;
+  }
+
+  .timeline p span {
+    color: #000000;
+  }
+  
+  .timeline p span:nth-of-type(2) {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .section6{
+    height: 250vh;
+    width: 100%;
+    background-color: aqua;
+  }
+
+  .section6 .scroll-bar{
+    height: 12%;
+    background-color: #ea552b;
+  }
+
+  .project-container{
+    /* height:% ; */
+    background-color: #000000;
+    display: grid;
+    
+    padding: 100px;
+    grid-template-areas: 
+    "design box"
+    
+    "custom mockup"
+    
+    "product concept"
+    
+    ;
+   
+  }
+  .project{
+    height: 350px;
+    width: 500px;
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+    
+    background-color: aqua;
+  }
+
+  .short{
+    height: 350px;
+    
+    background-color: green;
+  }
+
+  .tall{
+    height: 450px;
+    background-color: blue;
+  }
+
+  .design{
+    grid-area: design ;
+    background-color: pink;
+    
+    background-image: url("https://petrix.vercel.app/images/portfolio_img_1.jpg" );
+  }
+  .box{
+    grid-area: box ;
+    background-color: orange;
+    background-image: url("https://petrix.vercel.app/images/portfolio_img_6.jpg");
+  }
+  .custom{
+    grid-area: custom ;
+    background-color: yellow;
+    background-image: url("https://petrix.vercel.app/images/portfolio_img_2.jpg ");
+  }
+  .mockup{
+    grid-area: mockup ;
+    background-image: url("https://petrix.vercel.app/images/portfolio_img_3.jpg");
+  }
+  .product{
+    grid-area: product ;
+    background-image: url("https://petrix.vercel.app/images/portfolio_img_5.jpg");
+  }
+  .concept{
+    grid-area: concept;
+    background-image: url("https://petrix.vercel.app/images/portfolio_img_4.jpg") ;
+  }
+
+  .section6 .link {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: solid 1px gray;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90%;
+    background-color: black;
+  }
+
+  .section7{
+    height: 100%;
+    width: 100%;
+padding: 0;
+margin: 0;
+    background-color: gainsboro;
+  }
+
+  .section7 .scroll-bar{
+    height: 18%;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ea552b;
+  }
+  .container2{
+    min-height: 100%;
+    background-color: #e2eaf6;
+    display: grid;
+    
+    padding: 100px;
+    grid-template-areas:
+    "paragraph"
+    "row1"
+    "row2"
+    "row3"
+    "row4"
+    "row5"
+    "row6"
+  }
+
+  .paragraph{
+    height: 500px;
+    width: 950px;
+    font-size: 30px;
+    display: flex;
+
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #e2eaf6;
+  }
+  .row1{
+    height: 90px;
+    width: 100%;
+    font-size: 20px;
+    border-top: solid 1px grey;
+    display: flex;
+    align-items: center;
+   
+    background-color: #e2eaf6;
+
+  }
+
+  .row2{
+    height: 90px;
+    width: 100%;
+    font-size: 20px;
+    border-top: solid 1px grey;
+    display: flex;
+    align-items: center;
+    
+    background-color: #e2eaf6;
+  }
+  .row3{
+    height: 90px;
+    width: 100%;
+    font-size: 20px;
+    border-top: solid 1px grey;
+    display: flex;
+    align-items: center;
+   
+    background-color: #e2eaf6;
+  }
+
+  .row4{
+    height: 90px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    border-top: solid 1px  gray;
+    align-items: center;
+   
+     background-color: #e2eaf6;
+  }
+
+  .row5{
+    height: 120px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    border-top: solid 1px grey;
+    align-items: center;
+    
+    background-color: #e2eaf6;
+  }
+
+  .row6{
+    height: 90px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px gray;
+    align-items: center;
+    
+    background-color: #e2eaf6;
+  }
+  .section7 sup{
+    font-weight: 50;
+    font-size: 20px;
+    
+  }
+  .section7 .link{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65.5%;
+    border-radius: 50%;
+    color: white;
+    border: solid 1px black;
+    background-color: black;
+  }
+
+  .section7 .links {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70%;
+    border-radius: 50%;
+    color: white;
+    border: solid 1px black;
+    background-color: black;
+  }
+
+  .section7 .link1 {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 67%;
+    border-radius: 50%;
+    color: white;
+    border: solid 1px black;
+    background-color: black;
+  }
+
+  .section7 i{
+    display: inline-block;
+  }
+
+  .section8{
+    height: 150vh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#ffeee1;
+  }
+
+  .section8 .scroll-bar{
+    height: 12%;
+    width: 100%;
+   
+    background-color: #ea552b;
+  }
+
+  .section8 .user-card{
+    height: 40%;
+    width: 80%;
+    margin: 120px 0;
+    display: flex;
+    border-radius: 20px;
+    background-color:#ffffff;
+  }
+
+  .toggle{
+    height: 100%;
+    width: 80px;
+   border-right: solid 1px #f1f1f1;
+    
+  }
+  .up,
+  .down{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .up{
+    border-bottom: solid 1px #f1f1f1;
+  }
+
+  .up span {
+    transform: rotate(270deg);
+  }
+  
+  .down span {
+    transform: rotate(270deg);
+  }
+  
+  .view-window{
+    height: 100%;
+    width: calc(100% - 80px );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+ .view-window .image{
+    height: 85%;
+    width: 28%;
+    background-image: url("https://petrix.vercel.app/images/testimonial_img.jpg");
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 40px;
+ }
+  
+ .view-window .image-description{
+    height: 85%;
+    width: 60%;
+    padding: 50px;
+ }
+
+ .view-window .quotes{
+    font-size: 80px;
+    color: #ea552b;
+ }
+
+.view-window p{
+ padding: 30px 0;
+ font-size: 24px;
+ font-weight: 600;
+ line-height: 36px;
+}
+
+.view-window h4{
+    font-size: 22px;
+    padding-bottom: 20px;
+
+}
+
+.view-window span{
+    font-size: 18px;
+    color: #d4d4d4;
+}
+
+.section8 .clients{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.section8 .sponsers{
+    height: 80px;
+    width: 80%;
+    margin-bottom: 100px;
+    display: flex;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.section8 .sponser{
+    height: 100%;
+    width: 20%;
+    border-right: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section8 .sponser img{
+    height: 30px;
+}
+
+.section8 .sponsor{
+    height: 100%;
+    width: 20%;
+    /* border-right: solid 1px black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section8 .sponsor img{
+    height: 30px;
+}
+
+.section9{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2eaf6;
+}
+
+.section9 .scroll-bar{
+    height: 12%;
+    width: 100%;
+    background-color: #ea552b;
+    color: #ffffff;
+}
+
+.section9 .articles{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  
+}
+
+.section9 .article{
+    height: 85%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    padding: 20px;
+    gap: 10px;
+}
+
+.article span:nth-of-type(1){
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.article h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.article span:nth-of-type(2){
+    font-size: 20px;
+    color: #7a7a7a;
+}
+
+.article img{
+    height: 250px;
+    width: 350px;
+}
+
+.article span:nth-of-type(3){
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.section9 button{
+    width: fit-content;
+    margin-bottom: 80px;
+}
+
+.section10{
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.section10 .scroll-bar{
+    height: 8%;
+    width: 100%;
+    background-color: #ea552b;
+}
+
+.section10 p{
+    width: 80%;
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.section10 button{
+    border: solid 1px #fff;
+    width: 45%;
+    padding: 35px 0;
+}
+
+footer{
+    height: 50vh;
+    background-color: #ea552b;
+}
+
+footer .address{
+    height: 20%;
+    background-color: #ea552b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 34px;
+    font-weight: 900;
+    color: #fff;
+}
+
+footer .social-media{
+    height: 60%;
+    background-color: #ffeee1;
+    display: flex;
+}
+
+footer .site{
+    width: 25%;
+    height: 100%;
+    border-right: solid 1px gray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+footer .terms{
+    height: 20%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    color: gray;
+}
+
+footer a{
+    color: gray;
+}
